@@ -31,7 +31,6 @@ export default class FilterableProductTable extends React.Component{
     render() {
         return (
             <div className={"container mt-4 col-md-4"}>
-                {JSON.stringify(this.state)}
                 <SearchBar
                     filterText={this.state.filterText}
                     onFilterTextChange={this.handleFilterTextChange}
